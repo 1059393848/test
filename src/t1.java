@@ -1,5 +1,4 @@
 import java.awt.*;
-import java.security.PolicySpi;
 import java.util.Arrays;
 
 public class t1 {
@@ -9,7 +8,7 @@ public class t1 {
 
     public static void main(String[] args) {
         System.out.println();
-        int a = 1;
+        Object a = new Object();
         System.out.println("t1.main");
         List list = new List();
 
